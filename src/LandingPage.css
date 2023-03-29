@@ -1,0 +1,19 @@
+.header-bg {
+    background-color: skyblue;
+    padding: 3rem 0;
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  h3 {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
