@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import LandingPage from './LandingPage';
 import Nav from './Nav';
 import Podcast from './Podcast';
+import MovieList2 from "./movies/MovieList"
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<LandingPage />}/>
           <Route path="/podcast" element={<Podcast />}/>
-          <Route path="/movies" element={<MovieList />}/>
+          <Route path="/movies" element={<MovieList2 />}/>
 
         </Routes>
       </div>
